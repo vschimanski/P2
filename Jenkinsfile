@@ -5,8 +5,8 @@ pipeline {
         MVN_HOME = tool name: 'Maven3', type: 'hudson.tasks.Maven$MavenInstallation'
 
         def PROJECT_VERSION = 'UNKNOWN'
-         def zipCommand1="zip target/P2-“
-         def zipCommand2=" target/P2-“
+         def zipCommand1="zip target/P2-"
+         def zipCommand2=" target/P2-"
          def zipCommand3=".jar"
          def zipCommand4=".zip"
 
