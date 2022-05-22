@@ -28,19 +28,8 @@ pipeline {
                     }
            }
 
-       stage('Run') {
 
-                    steps {
-
-                        sh 'java -jar target/P*.jar'
-                    }
-           }
-
-
-
-
-
-            stage('Run') {
+          stage('Run') {
 
                       steps {
 
