@@ -10,7 +10,7 @@ pipeline {
          def zipCommand3=".jar"
          def zipCommand4=".zip"
 
-          def var1="cp target/P1-"
+          def var1="cp target/P2-"
           def var2=".zip /tmp"
 
 
