@@ -25,6 +25,14 @@ pipeline {
                     }
            }
 
+       stage('Package Archive') {
+
+                    steps {
+
+                        sh 'zip target/P*.jar'
+                    }
+           }
+
     }
      post {
          always {
