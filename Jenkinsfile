@@ -21,7 +21,7 @@ pipeline {
 
                     steps {
 
-                        sh 'java -jar target/java*.jar'
+                        sh 'java -jar target/P*.jar'
                     }
            }
 
